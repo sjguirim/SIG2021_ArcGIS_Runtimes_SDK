@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.geometry.Insets?>
+<?import com.esri.arcgisruntime.mapping.view.MapView?>
+
+<StackPane fx:controller="com.esrifrance.demo_sig2020_java.MapController" xmlns:fx="http://javafx.com/fxml"
+           stylesheets="/style.css">
+    <!--SDK MapView-->
+    <MapView fx:id="mapView"/>
+    <ProgressIndicator
+                fx:id="progressBar"
+                visible="false"
+                minWidth="160"/> 
+    <!--Menu Bar -->
+    <VBox id="vbox" StackPane.alignment="TOP_RIGHT" maxHeight="20"> 
+    	<StackPane.margin>
+            <Insets top="0" left="0"/>
+        </StackPane.margin>    	
+	    <MenuBar id="menuBar" focusTraversable="true" >  
+	        <menus>  	            
+	            <Menu text="Offline">  
+	                <items>  
+	                    <MenuItem text="Create a map using Mobile Map Package file" onAction="#openMobileMapPackage" />  	                     
+	                </items>  
+	            </Menu> 
+	            <Menu text="Analyse">  
+	                <items>  
+	                    <MenuItem text="Analyse Using Geometry Engine" onAction="#usingGeometryEngine"/>  
+	                    
+	                </items>  
+	            </Menu>  
+	        </menus>  
+	    </MenuBar>  
+	</VBox> 	
+  	
+</StackPane>
+
