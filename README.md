@@ -5,8 +5,10 @@ Here is a SIG 2020 demo project for  The ArcGIS Runtime SDK for Java with Maven.
 The project includes the Maven wrapper, so there is no need to install Maven to run the app.
 
 The app launches a window displaying a map.
-Use the "offline"/"Create a map using Mobile Map Package file" button, to create  a map using a local data on the device 
-Use the "Analyse"/"Analyse Using Geometry Engine" file button, to launch the analysis 
+
+Use the `offline/Create a map using Mobile Map Package file` button, to create  a map using a local data on the device.
+
+Use the `Analyse/Analyse Using Geometry Engine` file button, to launch the analysis 
 
 ![screenshot](screenshot.jpg)
 
