@@ -1,10 +1,12 @@
-# java-maven-runtime-demo-project-sig2020
+# java-maven-arcgis-runtime-demo-project-sig2020
 
-Here is a SIG 2020 demo project for  he ArcGIS Runtime SDK for Java with Maven.
+Here is a SIG 2020 demo project for  The ArcGIS Runtime SDK for Java with Maven.
 
 The project includes the Maven wrapper, so there is no need to install Maven to run the app.
 
 The app launches a window displaying a map.
+Use the "offline"/"Create a map using Mobile Map Package file" button, to create  a map using a local data on the device 
+Use the "Analyse"/"Analyse Using Geometry Engine" file button, to launch the analysis 
 
 ![screenshot](screenshot.jpg)
 
@@ -45,13 +47,6 @@ See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/l
 * [ArcGIS Blog](https://blogs.esri.com/esri/arcgis/)  
 * [Esri Twitter](https://twitter.com/esri)  
 
-## Issues
-
-Find a bug or want to request a new feature?  Please let us know by submitting an issue.
-
-## Contributing
-
-Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
 
