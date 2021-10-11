@@ -1,6 +1,6 @@
-# java-maven-arcgis-runtime-demo-project-sig2020
+# java-maven-arcgis-runtime-demo-project-sig2021
 
-Here is a SIG 2020 demo project for  The ArcGIS Runtime SDK for Java with Maven.
+Here is a SIG 2021 demo project for  The ArcGIS Runtime SDK for Java with Maven.
 
 The project includes the Maven wrapper, so there is no need to install Maven to run the app.
 
@@ -54,7 +54,7 @@ See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/l
 
 ## Licensing
 
-Copyright 2020 Esri France 
+Copyright 2021 Esri France 
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not 
 use this file except in compliance with the License. You may obtain a copy 
