@@ -7,7 +7,7 @@
 <?import javafx.geometry.Insets?>
 <?import com.esri.arcgisruntime.mapping.view.MapView?>
 
-<StackPane fx:controller="com.esrifrance.demo_sig2020_java.MapController" xmlns:fx="http://javafx.com/fxml"
+<StackPane fx:controller="com.esrifrance.demo_java.MapController" xmlns:fx="http://javafx.com/fxml"
            stylesheets="/style.css">
     <!--SDK MapView-->
     <MapView fx:id="mapView"/>

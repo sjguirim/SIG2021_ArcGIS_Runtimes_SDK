@@ -1,4 +1,4 @@
-package com.esrifrance.demo_sig2020_java;
+package com.esrifrance.demo_java;
 
 import java.awt.Color;
 import java.io.IOException;
