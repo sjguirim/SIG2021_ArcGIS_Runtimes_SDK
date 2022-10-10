@@ -1,4 +1,4 @@
-# java-maven-arcgis-runtime-demo-project-sig2021
+# java-maven-arcgis-runtime-demo-project-sig2022
 
 Here is a SIG 2021 demo project for  The ArcGIS Runtime SDK for Java with Maven.
 
